@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: lightgrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+ 
+
+ul{
+    float: right;
+}
+
+li{
+    float: left;
+    margin: 0rem 3rem;
+    list-style: none;
+    margin-bottom: 10rem;
+}
+
+h2{
+    padding: 3rem 0rem;
+}
+
+button{
+    padding: 4px;
+    margin: 2rem 0rem;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+}
+
+.header{
+    color: white;
+    background-color: coral;
+    height: 10rem;
+    padding: 10px
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.FirstSection{
+    text-align: center;
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    text-shadow: 3px 3px 3px coral;
+    color: whitesmoke;
+   background-image: url("/images/images\ \(1\).jpeg")
+}
+
+.FormSection{
+    text-align: center;
+}
+
+label, input, textarea{
+    display: block;
+    margin: 2rem auto;
+    width: 50%;
+}
+
+a:hover{
+    color: red;
+}
